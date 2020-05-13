@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <title>Spotify</title>
+  </head>
+        <body>
+            <div class="mx_wrap">
+                 <main>
+                   <!-- MAIN LEFT -->
+                   <section class="main_left">
+                     <div class="logo">
+                       <img class="hidden-xs" src="img/logo.svg" alt="logoSpotify">
+                       <img class="visible-xs" src="img/logo-small.svg" alt="logoSpotifySmall">
+                       <div class="text-left visible-xs">
+                         <img src="img/home.svg" alt="home">
+                       </div>
+                       <div class="visible-xs">
+                         <img src="img/search.svg" alt="smallsearch">
+                       </div>
+                       <div class="visible-xs">
+                         <img src="img/libreria.svg" alt="smalllibrary">
+                       </div>
+                     </div>
+                     <!-- MAIN LEFT HOME  -->
+                     <div id="home">
+                       <ul class="top-container hidden-xs">
+                         <li><a class="mx_greenyellow_left" href="#"><img src="img/home.svg" alt="home"> Home</a></li>
+                         <li><a href="#"><img src="img/search.svg" alt="search"> Cerca</a></li>
+                         <li><a href="#"><img src="img/libreria.svg" alt="libreria"> La tua libreria</a></li>
+                       </ul>
+                     </div>
+                     <!-- MAIN LEFT PLAYLIST -->
+                     <div class="mx_white_pad hidden-xs">
+                       <h3>PLAYLIST</h3>
+                     </div>
+                     <div class="mid hidden-xs">
+                       <ul id="playlist">
+                         <li><a href="#"> <span class="cross">&#43; </span>Crea Playlist</a></li>
+                         <li><a href="#">Heavy Metal</a></li>
+                         <li><a href="#">Iron Maiden</a></li>
+                         <li><a href="#">Hollywood Undead</a></li>
+                         <li><a href="#">Deep Purple</a></li>
+                         <li><a href="#">Led Zeppelin</a></li>
+                         <li><a href="#">Black Sabbath</a></li>
+                         <li><a href="#">Whitesnake</a></li>
+                         <li><a href="#">Angra</a></li>
+                       </ul>
+                     </div>
+                     <div class="bottom">
+                       <div class="download text-center">
+                         <a class="visible-xs" href="#"><img src="img/download.svg" alt="donwload"></a>
+                       </div>
+                       <div class="profile text-center">
+                         <a class="visible-xs" href="#"><img src="img/profile.svg" alt="profile"></a>
+                       </div>
+                       <div class="bottom-up hidden-xs">
+                         <a href="#"><img src="img/download.svg" alt="download"> Installa app</a>
+                       </div>
+                       <div class="bottom-down hidden-xs">
+                         <a href="#"><img src="img/profile.svg" alt="profile">
+                          ASH</a>
+                       </div>
+                     </div>
+                   </section>
+                   <!-- MAIN RIGHT -->
+                   <section class="main_right clearfix">
+                     <!-- MAIN RIGHT BANNER -->
+                     <div id="banner">
+                       <a class="mx_upgrade_btn" href="#">EFFETTUA L'UPGRADE</a>
+                     </div>
+                       <div class="mx_flex_container_menu">
+                            <a class="highlights" href="#">IN EVIDENZA</a>
+                            <a href="#">PODCAST</a>
+                            <a href="#">CLASSIFICHE</a>
+                            <a href="#">GENERI E MOOD</a>
+                            <a href="#">NUOVE USCITE</a>
+                            <a href="#">SCOPRI</a>
+                       </div>
+                       <!-- MAIN RIGHT MUSIC -->
+                       <div id="recently_played">
+                         <h2>Recently played</h2>
+                       </div>
+                       <div class="flex_album_container text-center">
+                         <div class="flex_item">
+                           <div class="box_img">
+                             <div class="box_shadow"><i class="far fa-play-circle"></i></div>
+                             <img src="img/metal_lifting.jpg" alt="metal mix">
+                           </div>
+                           <h5>Heavy Metal</h5>
+                           <p>Metallica - Slipknot - Sepoltura - Pantera </p>
+                         </div>
+                         <div class="flex_item">
+                           <div class="box_img">
+                             <div class="box_shadow"><i class="far fa-play-circle"></i></div>
+                             <img src="img/real.jpg" alt="NWBHM album">
+                           </div>
+                           <h5>Iron Maiden</h5>
+                           <p>A Real Dead One</p>
+                         </div>
+                         <div class="flex_item">
+                           <div class="box_img">
+                             <div class="box_shadow"><i class="far fa-play-circle"></i></div>
+                             <img src="img/dead.png" alt="Hollywood Undead album">
+                           </div>
+                           <h5>Hollywood Undead</h5>
+                           <p>Day Of The Dead</p>
+                         </div>
+                         <div class="flex_item">
+                           <div class="box_img">
+                             <div class="box_shadow"><i class="far fa-play-circle"></i></div>
+                             <img src="img/made.jpg" alt="Deep Purlple album">
+                           </div>
+                           <h5>Deep Purple</h5>
+                           <p>Made in Japan</p>
+                         </div>
+                         <div class="flex_item">
+                           <div class="box_img">
+                             <div class="box_shadow"><i class="far fa-play-circle"></i></div>
+                             <img src="img/coda.jpg" alt="Led Zeppelin album">
+                           </div>
+                           <h5>Led Zeppelin</h5>
+                           <p>Coda</p>
+                         </div>
+                         <div class="flex_item">
+                           <div class="box_img">
+                             <div class="box_shadow"><i class="far fa-play-circle"></i></div>
+                             <img src="img/sabbath.jpg" alt="Black Sabbath album">
+                           </div>
+                           <h5>Black Sabbath</h5>
+                           <p>Mob Rules</p>
+                         </div>
+                         <div class="flex_item">
+                           <div class="box_img">
+                             <div class="box_shadow"><i class="far fa-play-circle"></i></div>
+                             <img src="img/trouble.jpg" alt="Whitesnake album">
+                           </div>
+                           <h5>Whitesnake</h5>
+                           <p>Trouble</p>
+                         </div>
+                         <div class="flex_item">
+                           <div class="box_img">
+                             <div class="box_shadow"><i class="far fa-play-circle"></i></div>
+                             <img src="img/tool.jpeg" alt="Tool album">
+                           </div>
+                           <h5>Tool</h5>
+                           <p>Lateralus</p>
+                         </div>
+                       </div>
+                       <!-- MAIN RIGHT CREATO PER -->
+                       <div class="popular">
+                         <h2>Create by Ferramenta</h2>
+                         <p>Più ascolti, più accurati saranno i suggerimenti.</p>
+                       </div>
+                       <div class="flex_album_container_two text-center">
+                         <div class="flex_item">
+                           <div class="box_img">
+                             <div class="box_shadow"><i class="far fa-play-circle"></i></div>
+                             <img src="img/radar.jpeg" alt="radar">
+                           </div>
+                           <h5>Release Radar</h5>
+                         </div>
+                         <div class="flex_item">
+                           <div class="box_img">
+                             <div class="box_shadow"><i class="far fa-play-circle"></i></div>
+                             <img src="img/mixdaily.jpeg" alt="midaily">
+                           </div>
+                           <h5>Daily Mix 1</h5>
+                         </div>
+                       </div>
+                       <!-- MAIN RIGHT PIU POPOLARI -->
+                       <div class="popular">
+                         <h2>Artisti più popolari</h2>
+                         <p>Più ascolti, più accurati saranno i suggerimenti.</p>
+                       </div>
+                       <div class="flex_album_container_two text-center">
+                         <div class="flex_item popolari">
+                           <div class="box_img popolari">
+                             <div class="box_shadow giro"><i class="far fa-play-circle"></i></div>
+                             <img src="img/youg.jpeg" alt="LanaRei">
+                           </div>
+                           <h5>Lana del Rey</h5>
+                         </div>
+                         <div class="flex_item popolari">
+                           <div class="box_img popolari">
+                             <div class="box_shadow giro"><i class="far fa-play-circle"></i></div>
+                             <img src="img/einaudi.jpeg" alt="Einaudi">
+                           </div>
+                           <h5>Ludovico Einaudi</h5>
+                         </div>
+                       </div>
+                   </section>
+                 </main>
+               </div>
+               <!-- FOOTER -->
+               <footer id="footer-container">
+                 <!-- FOOTER Left side mini -->
+                 <div class="mx_footer-left clearfix">
+                   <div class="left_img">
+                     <img src="img/hallo.jpeg" alt="static-x">
+                   </div>
+                   <div class="left_text">
+                    <ul class="mx_nowplaying">
+                     <li><h4>Hallowed by Thy Name</h4></li>
+                     <li><p>A Real Dead One</p></li>
+                    </ul>
+                   </div>
+                   <div class="mx_playfavorite">
+                     <ul>
+                      <li><i class="far fa-heart"></i></li>
+                      <br>
+                      <li><i class="far fa-folder"></i></li>
+                     </ul>
+                   </div>
+                 </div>
+                 <div class="footer-center text-center">
+                   <!-- FOOTER barplayer -->
+                   <div class="mx-center-icon">
+                     <ul>
+                       <li><i class="fas fa-random"></i></li>
+                       <li><i class="fas fa-step-backward"></i></li>
+                       <li><i class="far fa-play-circle"></i></li>
+                       <li><i class="fas fa-step-forward"></i></li>
+                       <li><i class="fas fa-redo-alt"></i></li>
+                     </ul>
+                   </div>
+                   <div class="footer-center-lenght">
+                     <p>0.25</p>
+                     <div class="mx_lenght-container">
+                       <div class="mx_lenght"><i class="fas fa-circle roundmark"></i></div>
+                     </div>
+                     <p>4.35</p>
+                   </div>
+                 </div>
+                 <div class="mx_footer-right">
+                   <!-- FOOTER right side volume -->
+                   <ul class="mx_footer-right-icon">
+                     <li><i class="fas fa-list-ul"></i></li>
+                     <li><i class="fas fa-desktop"></i></li>
+                     <li><i class="fas fa-volume-up"></i></li>
+                     <li> <div class="time-line-container"><div class="line"></div></div></li>
+                   </ul>
+                 </div>
+               </footer>
+        </body>
+    </html>
