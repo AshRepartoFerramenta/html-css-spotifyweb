@@ -497,6 +497,7 @@ footer {
 .mx_nowplaying p:hover{
     display:flow-root;
     font-size: 18px;
+    color: lightgreen;
 }
 /* FOOTER center barplayer */
 .mx-center-icon {
