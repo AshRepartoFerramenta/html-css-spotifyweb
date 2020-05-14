@@ -91,8 +91,8 @@ a.mx_greenyellow_left {
 /* Playlist */
 #playlist {
   list-style: none;
-  margin-left: 10px;
-  line-height: 35px;
+  margin-left: 7px;
+  line-height: 30px;
   height: calc(100% - 80px);
   overflow-y: auto;     /* da controllare */
 }
@@ -452,7 +452,7 @@ footer {
 /* FOOTER left side player */
 .mx_footer-left {
   line-height: 50px;
-  padding: 10px;
+  padding: 20px;
 }
 .left_img {
   float: left;
@@ -495,13 +495,13 @@ footer {
   font-size: 12px
 }
 .mx_nowplaying p:hover{
-    display:flow-root;
+    display: flow-root;
     font-size: 18px;
     color: lightgreen;
 }
 /* FOOTER center barplayer */
 .mx-center-icon {
-  line-height: 20px;
+  line-height: 18px;
 }
 .mx-center-icon li {
   display: inline-block;
@@ -611,6 +611,12 @@ div.mx-center-icon > ul {
     height: 3px;
     background-color: grey;
   }
+  .left_img img {
+    display: none;
+  }
+   .mx_nowplaying p{
+    display: none;
+    }
 }
 @media all and (min-width: 769px) and (max-width: 991px)  {
   div.mx-center-icon > ul {
@@ -627,6 +633,10 @@ div.mx-center-icon > ul {
     margin: 10px;
     height: 3px;
     background-color: grey;
+  }
+
+  .left_img img {
+    display: none;
   }
 }
 @media all and (min-width: 992px) and (max-width: 1199px) {
